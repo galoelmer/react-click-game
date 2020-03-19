@@ -1,0 +1,62 @@
+[
+  {
+    "image": "/images/Aragorn.jpg",
+    "key": "1",
+    "isActive": false
+  },
+  {
+    "image": "/images/Arwen.jpg",
+    "key": "2",
+    "isActive": false
+  },
+  {
+    "image": "/images/Balrog.jpg",
+    "key": "3",
+    "isActive": false
+  },
+  {
+    "image": "/images/Boromir.jpg",
+    "key": "4",
+    "isActive": false
+  },
+  {
+    "image": "/images/Legolas.jpg",
+    "key": "5",
+    "isActive": false
+  },
+  {
+    "image": "/images/Eomer.jpg",
+    "key": "6",
+    "isActive": false
+  },
+  {
+    "image": "/images/Eowyn.jpg",
+    "key": "7",
+    "isActive": false
+  },
+  {
+    "image": "/images/Frodo.jpg",
+    "key": "8",
+    "isActive": false
+  },
+  {
+    "image": "/images/Galadriel.jpg",
+    "key": "9",
+    "isActive": false
+  },
+  {
+    "image": "/images/Gandalf.jpg",
+    "key": "10",
+    "isActive": false
+  },
+  {
+    "image": "/images/Gimli.jpg",
+    "key": "11",
+    "isActive": false
+  },
+  {
+    "image": "/images/gollum.jpg",
+    "key": "12",
+    "isActive": false
+  }
+]
