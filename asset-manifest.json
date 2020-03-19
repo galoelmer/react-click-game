@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/galoelmer/react-click-game/static/css/main.c96d65cc.chunk.css",
-    "main.js": "/galoelmer/react-click-game/static/js/main.c3570015.chunk.js",
-    "main.js.map": "/galoelmer/react-click-game/static/js/main.c3570015.chunk.js.map",
-    "runtime-main.js": "/galoelmer/react-click-game/static/js/runtime-main.2f57ecc8.js",
-    "runtime-main.js.map": "/galoelmer/react-click-game/static/js/runtime-main.2f57ecc8.js.map",
-    "static/js/2.be4cda9c.chunk.js": "/galoelmer/react-click-game/static/js/2.be4cda9c.chunk.js",
-    "static/js/2.be4cda9c.chunk.js.map": "/galoelmer/react-click-game/static/js/2.be4cda9c.chunk.js.map",
-    "index.html": "/galoelmer/react-click-game/index.html",
-    "precache-manifest.164140404cd6ff22700b44500f358277.js": "/galoelmer/react-click-game/precache-manifest.164140404cd6ff22700b44500f358277.js",
-    "service-worker.js": "/galoelmer/react-click-game/service-worker.js",
-    "static/css/main.c96d65cc.chunk.css.map": "/galoelmer/react-click-game/static/css/main.c96d65cc.chunk.css.map",
-    "static/js/2.be4cda9c.chunk.js.LICENSE.txt": "/galoelmer/react-click-game/static/js/2.be4cda9c.chunk.js.LICENSE.txt"
+    "main.css": "/react-click-game/static/css/main.c96d65cc.chunk.css",
+    "main.js": "/react-click-game/static/js/main.c3570015.chunk.js",
+    "main.js.map": "/react-click-game/static/js/main.c3570015.chunk.js.map",
+    "runtime-main.js": "/react-click-game/static/js/runtime-main.4f8a1384.js",
+    "runtime-main.js.map": "/react-click-game/static/js/runtime-main.4f8a1384.js.map",
+    "static/js/2.be4cda9c.chunk.js": "/react-click-game/static/js/2.be4cda9c.chunk.js",
+    "static/js/2.be4cda9c.chunk.js.map": "/react-click-game/static/js/2.be4cda9c.chunk.js.map",
+    "index.html": "/react-click-game/index.html",
+    "precache-manifest.2c6b544cb8df9cf0409816c54d347389.js": "/react-click-game/precache-manifest.2c6b544cb8df9cf0409816c54d347389.js",
+    "service-worker.js": "/react-click-game/service-worker.js",
+    "static/css/main.c96d65cc.chunk.css.map": "/react-click-game/static/css/main.c96d65cc.chunk.css.map",
+    "static/js/2.be4cda9c.chunk.js.LICENSE.txt": "/react-click-game/static/js/2.be4cda9c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f57ecc8.js",
+    "static/js/runtime-main.4f8a1384.js",
     "static/js/2.be4cda9c.chunk.js",
     "static/css/main.c96d65cc.chunk.css",
     "static/js/main.c3570015.chunk.js"
