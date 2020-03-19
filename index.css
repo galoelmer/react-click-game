@@ -1,0 +1,23 @@
+html,
+body {
+	height: 100vh;
+	min-width: 320px;
+	background: linear-gradient(
+			135deg,
+			rgba(2, 0, 36, 0.7318277652858018) 0%,
+			rgba(10, 25, 54, 0.4321078773306197) 48%,
+			rgba(52, 124, 182, 0.434908997778799) 100%
+		),
+		url("/images/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	max-width: 1440px;
+	margin: 0 auto;
+}
