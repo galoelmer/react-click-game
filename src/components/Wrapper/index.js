@@ -1,60 +1,44 @@
-import React, { Component } from "react";
-import CardContainer from "../CardContainer";
-import Guide from "../Guide";
-import images from "../../imagesUrl.json";
-import _shuffle from "lodash.shuffle";
-import "./style.css";
+import React, { useState } from 'react';
+import CardContainer from '../CardContainer';
+import Guide from '../Guide';
+import images from '../../imagesUrl.json';
+import _shuffle from 'lodash.shuffle';
+import './style.css';
 
-class Wrapper extends Component {
-	state = {
-		imagesArray: images,
-		score: 0
-	};
+const Wrapper = () => {
+  const [imagesList, updateImagesList] = useState(_shuffle(images));
+  const [score, updateScore] = useState(0);
 
-	componentDidMount() {
-		this.setState({
-			imagesArray: _shuffle(this.state.imagesArray)
-		});
-	}
+  const handleClick = (isClicked, key) => {
+    if (!isClicked) {
+      let updatedStateCards = imagesList.map((card) => {
+        if (card.key === key) {
+          card.isActive = true;
+          return card;
+        } else {
+          return card;
+        }
+      });
+      updateImagesList(updatedStateCards);
+      updateScore(score + 1);
+    } else {
+      let updatedStateCards = imagesList.map((card) => {
+        card.isActive = false;
+        return card;
+      });
+      updateScore(updatedStateCards);
+      updateScore(0);
+    }
 
-	handleClick = (isClicked, key) => {
-		if (!isClicked) {
-			let updatedStateCards = this.state.imagesArray.map(card => {
-				if (card.key === key) {
-					card.isActive = true;
-					return card;
-				} else {
-					return card;
-				}
-			});
-			this.setState({
-				imagesArray: updatedStateCards,
-				score: this.state.score + 1
-			});
-		} else {
-			let updatedStateCards = this.state.imagesArray.map(card => {
-				card.isActive = false;
-				return card;
-			});
-			this.setState({
-				imagesArray: updatedStateCards,
-				score: 0
-			});
-		}
+    updateImagesList(_shuffle(imagesList));
+  };
 
-		this.setState({
-			imagesArray: _shuffle(this.state.imagesArray)
-		});
-	};
-
-	render() {
-		return (
-			<div className="wrapper">
-				<Guide score={this.state.score} />
-				<CardContainer action={this.handleClick} list={this.state.imagesArray} />
-			</div>
-		);
-	}
-}
+  return (
+    <div className="wrapper">
+      <Guide score={score} />
+      <CardContainer action={handleClick} list={imagesList} />
+    </div>
+  );
+};
 
 export default Wrapper;
