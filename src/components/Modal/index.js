@@ -15,7 +15,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 });
 
 export default function AlertDialogSlide({ open, setOpen, character, score, updateScore }) {
-  let challengeComplete = score === 3;
+  let challengeComplete = score === 12;
   const handleClose = () => {
     setOpen(false);
     updateScore(0);

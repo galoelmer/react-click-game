@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import CardContainer from '../CardContainer';
 import Guide from '../Guide';
 import Modal from '../Modal';
@@ -24,7 +24,7 @@ const Wrapper = () => {
       });
       updateImagesList(updatedStateCards);
       updateScore(score + 1);
-      if (score + 1 === 3) {
+      if (score + 1 === 12) {
         setModal(true);
         let updatedStateCards = imagesList.map((card) => {
           card.isActive = false;
@@ -44,9 +44,6 @@ const Wrapper = () => {
     }
     updateImagesList(_shuffle(imagesList));
   };
-  useEffect(() => {
-    // return () => updateScore(0);
-  }, [modal]);
 
   return (
     <div className="wrapper">
