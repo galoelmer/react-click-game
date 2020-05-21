@@ -2,61 +2,73 @@
   {
     "image": "/images/Aragorn.jpg",
     "key": "1",
-    "isActive": false
+    "isActive": false,
+    "name": "Aragorn"
   },
   {
     "image": "/images/Arwen.jpg",
     "key": "2",
-    "isActive": false
+    "isActive": false,
+    "name": "Arwen"
   },
   {
     "image": "/images/Balrog.jpg",
     "key": "3",
-    "isActive": false
+    "isActive": false,
+    "name": "The Balrog"
   },
   {
     "image": "/images/Boromir.jpg",
     "key": "4",
-    "isActive": false
+    "isActive": false,
+    "name": "Boromir"
   },
   {
     "image": "/images/Legolas.jpg",
     "key": "5",
-    "isActive": false
+    "isActive": false,
+    "name": "Legolas"
   },
   {
     "image": "/images/Eomer.jpg",
     "key": "6",
-    "isActive": false
+    "isActive": false,
+    "name": "Eomer"
   },
   {
     "image": "/images/Eowyn.jpg",
     "key": "7",
-    "isActive": false
+    "isActive": false,
+    "name": "Eowyn"
   },
   {
     "image": "/images/Frodo.jpg",
     "key": "8",
-    "isActive": false
+    "isActive": false,
+    "name": "Frodo"
   },
   {
     "image": "/images/Galadriel.jpg",
     "key": "9",
-    "isActive": false
+    "isActive": false,
+    "name": "Galadriel"
   },
   {
     "image": "/images/Gandalf.jpg",
     "key": "10",
-    "isActive": false
+    "isActive": false,
+    "name": "Gandalf"
   },
   {
     "image": "/images/Gimli.jpg",
     "key": "11",
-    "isActive": false
+    "isActive": false,
+    "name": "Gimli"
   },
   {
     "image": "/images/gollum.jpg",
     "key": "12",
-    "isActive": false
+    "isActive": false,
+    "name": "Gollum"
   }
 ]
