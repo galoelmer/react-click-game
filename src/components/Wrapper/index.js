@@ -1,4 +1,4 @@
-import React, { useState} from 'react';
+import React, { useState } from 'react';
 import CardContainer from '../CardContainer';
 import Guide from '../Guide';
 import Modal from '../Modal';
@@ -53,8 +53,8 @@ const Wrapper = () => {
         open={modal}
         setOpen={setModal}
         character={character}
-		score={score}
-		updateScore={updateScore}
+        score={score}
+        updateScore={updateScore}
       />
     </div>
   );

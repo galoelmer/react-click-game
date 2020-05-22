@@ -1,9 +1,5 @@
 .card {
-	width: 150px;
-	height: 150px;
-	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.4);
-	margin: 20px;
-	border-radius: 10px;
+	box-shadow: 0 6px 6px rgba(0, 0, 0, 0.4), 2px 8px 8px rgba(0, 0, 0, 0.2);
 	overflow: hidden;
 	transition: transform 0.5s;
 }
@@ -17,33 +13,3 @@ img {
 	height: 100%;
 }
 
-@media only screen and (max-width: 1024px) {
-	.card {
-		width: 120px;
-		height: 120px;
-		margin: 10px;
-		margin-top: 50px;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	.card {
-		width: 100px;
-		height: 100px;
-		margin: 20px;
-		margin-top: 0;
-	}
-}
-
-@media only screen and (max-width: 430px) {
-	.card {
-		width: 80px;
-		height: 80px;
-		margin: 6px 6px 15px;
-		box-shadow: 0 3px 6px rgba(255, 255, 255, 0.384);
-	}
-
-	.card:hover {
-    transform: scale(1);
-	}
-}

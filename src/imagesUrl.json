@@ -3,72 +3,84 @@
     "image": "/images/Aragorn.jpg",
     "key": "1",
     "isActive": false,
-    "name": "Aragorn"
+    "name": "Aragorn",
+    "height": "300"
   },
   {
     "image": "/images/Arwen.jpg",
     "key": "2",
     "isActive": false,
-    "name": "Arwen"
+    "name": "Arwen",
+    "height": "300"
   },
   {
     "image": "/images/Balrog.jpg",
     "key": "3",
     "isActive": false,
-    "name": "The Balrog"
+    "name": "The Balrog",
+    "height": "300"
   },
   {
     "image": "/images/Boromir.jpg",
     "key": "4",
     "isActive": false,
-    "name": "Boromir"
+    "name": "Boromir",
+    "height": "300"
   },
   {
     "image": "/images/Legolas.jpg",
     "key": "5",
     "isActive": false,
-    "name": "Legolas"
+    "name": "Legolas",
+    "height": "300"
   },
   {
     "image": "/images/Eomer.jpg",
     "key": "6",
     "isActive": false,
-    "name": "Eomer"
+    "name": "Eomer",
+    "height": "300"
   },
   {
     "image": "/images/Eowyn.jpg",
     "key": "7",
     "isActive": false,
-    "name": "Eowyn"
+    "name": "Eowyn",
+    "height": "300"
   },
   {
     "image": "/images/Frodo.jpg",
     "key": "8",
     "isActive": false,
-    "name": "Frodo"
+    "name": "Frodo",
+    "height": "300"
   },
   {
     "image": "/images/Galadriel.jpg",
     "key": "9",
     "isActive": false,
-    "name": "Galadriel"
+    "name": "Galadriel",
+    "height": "300"
   },
   {
     "image": "/images/Gandalf.jpg",
     "key": "10",
     "isActive": false,
-    "name": "Gandalf"
+    "name": "Gandalf",
+    "height": "300"
   },
   {
     "image": "/images/Gimli.jpg",
     "key": "11",
     "isActive": false,
-    "name": "Gimli"
+    "name": "Gimli",
+    "height": "300"
   },
   {
     "image": "/images/gollum.jpg",
     "key": "12",
     "isActive": false,
-    "name": "Gollum"
+    "name": "Gollum",
+    "height": "300"
   }
 ]

@@ -35,7 +35,7 @@ export default function AlertDialogSlide({ open, setOpen, character, score, upda
         <DialogTitle
           style={{
             textAlign: 'center',
-            color: challengeComplete ? 'rgb(23,105,170)' : 'rgb(206, 119, 38)',
+            color: challengeComplete ? 'rgb(23,105,170)' : 'rgb(223,199,97)',
           }}
           id="alert-dialog-slide-title"
         >
@@ -63,10 +63,13 @@ export default function AlertDialogSlide({ open, setOpen, character, score, upda
         </DialogContent>
         <DialogActions>
           <Button
-            style={{ margin: '0 auto' }}
+            style={{
+              margin: '0 auto',
+              borderColor: 'rgb(50,100,149)',
+              color: 'rgb(50,100,149)',
+            }}
             size="small"
             variant="outlined"
-            color="primary"
             onClick={handleClose}
           >
             {challengeComplete ? 'Play Again' : 'Try Again'}
