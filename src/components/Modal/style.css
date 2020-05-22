@@ -1,4 +1,4 @@
 .modal [role='dialog'] {
-    color: rgb(206, 119, 38);
     background: rgba(0,0,0,0.9);
+    border-radius: 20px;
 }

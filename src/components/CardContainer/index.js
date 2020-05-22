@@ -1,21 +1,36 @@
 import React from 'react';
 import { useTransition, a } from 'react-spring';
 import useMeasure from '../../Hooks/useMeasure';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Card from '../Card';
 import './style.css';
 
 const CardContainer = (props) => {
+  const laptopSize = useMediaQuery('(max-width:1025px)');
+  const tableSize = useMediaQuery('(max-width:770px)');
+  const mobileSize = useMediaQuery('(max-width:600px)');
+
+  const size = mobileSize ? 65 : tableSize ? 100 : laptopSize ? 110 : 150;
+
   const columns = 4;
   const [bind, { width }] = useMeasure();
   let heights = new Array(columns).fill(0);
+  let padBottom = 0;
 
-  let gridItems = props.list.map((child, i) => {
+  let gridItems = props.list.map((child) => {
     const column = heights.indexOf(Math.min(...heights));
     const xy = [
       (width / columns) * column,
-      (heights[column] += child.height / 2) - child.height / 2,
+      (heights[column] += child.height / 2) - child.height / 2 + padBottom,
     ];
-    return { ...child, xy, width: width / columns, height: child.height / 2 };
+    // Add space to bottoms cards
+    if (mobileSize) {
+      padBottom -= column === 3 ? 30 : 0;
+    } else {
+      padBottom += column === 3 ? 20 : 0;
+    }
+
+    return { ...child, xy, width: size, height: size };
   });
 
   const transitions = useTransition(gridItems, (item) => item.image, {
