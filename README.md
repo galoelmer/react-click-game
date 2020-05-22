@@ -7,7 +7,7 @@
 
 > This is a memory game created with React. Players must click each image just once and be able to remembered the clicked image. If an image is clicked twice, the score is reset to zero. Players must reach the score of 12.
 
-### ✨ [Demo](https://galoelmer.github.io/react-click-game//)
+### ✨ [Demo](https://react-click-game.web.app/)
 
 ## Prerequisites
 
